@@ -1,35 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Halaman HTML </title>
-    <meta charset="8-UTF">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="ARenta Putri">
-    <meta name="233307034" content="12345">
+    <head>
+        <title>Halaman HTML</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Arenta Putri">
+        <meta name="233307034" content="123">
+    </head>
+
+    <style>
+        p {
+            display: none;
+            background-color: darkgray;
+            padding: 20px;
+        }
+
+        div:hover p { /* : hover adalah Css Pseudo Class*/
+            display: block;
+        }
+        a:hover {
+            color: rgb(255, 0, 221);
+        }
+    </style>
+
+    <body>
+        <div> Letakkan kursor disini untuk melihat div elemen
+            <p>Saya adalah element p</p>
+        </div>
+        <a href="es.jpg" target="_blank">klik link</a>
+    </body>
 </html>
-<style>
-    p {
-        display: none;
-        background-color: darkgray;
-        padding: 20px;
-    }
-    div:hover p {/* :hover ada;ah CSS pseudo Class */
-        display: block;
-    }
-    .link {
-            color: rosybrown;
-        }
-    .link:hover p{
-            color: blueviolet;
-        }
-</style>
-</head>
-<body>
-<header>
-    <h1>Arenta </h1>
-</header>
-<p>Klik <a href="es.jpg" target="_blank" class="link">di sini</a> untuk melihat gambar es</p>
-<div> Letakkan kursor disini untuk melihat div elemet
-        <p>Saya adalah element p</p> 
-    </div>
-</body>
